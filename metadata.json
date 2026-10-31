@@ -1,0 +1,6 @@
+{
+  "name": "Luma Dental Studio",
+  "description": "Award-winning dental care with personalized treatments, verified clinician profiles, transparent pricing, and instant online appointment scheduling.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

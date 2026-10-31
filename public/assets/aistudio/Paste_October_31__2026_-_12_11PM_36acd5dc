@@ -1,0 +1,903 @@
+# MASTER PROMPT: PREMIUM DENTAL CLINIC WEBSITE — COMPLETE FULL-STACK APPLICATION
+
+Act as an award-winning healthcare UI/UX designer, senior full-stack developer, dental practice website consultant, brand identity designer, SEO specialist, accessibility expert, and security-focused software architect.
+
+Build a complete, premium, modern, responsive dental clinic website designed to attract new patients, build trust, showcase dental treatments, and convert website visitors into appointment bookings.
+
+The website must be suitable for independent dentists, multi-dentist clinics, orthodontic practices, cosmetic dentistry clinics, family dental practices, and international dental clinics.
+
+Do not build a generic medical template or a static mockup. Create a complete, cohesive, functional application with professional branding, custom visual assets, multiple interconnected pages, secure appointment booking, database integration, patient communication workflows, an admin dashboard, and comprehensive SEO.
+
+Use the temporary brand name "Luma Dental Studio". Keep the clinic name, logo, contact details, dentists, services, locations, appointment settings, currencies, and brand colors configurable so the website can be customized for different dental clients.
+
+The final website should look like a premium international healthcare brand while remaining approachable, reassuring, professional, and easy to use.
+
+## 1. WEBSITE OBJECTIVES
+
+The website must help patients:
+
+- Discover dental treatments and services.
+- Learn about the clinic and its dentists.
+- Understand available treatment options.
+- Request or book appointments.
+- Select an appropriate dentist, service, date, and available time.
+- Receive booking confirmations and reminders when configured.
+- Contact the clinic through phone, email, or WhatsApp where supported.
+- Find the clinic's address, opening hours, and emergency contact guidance.
+- Access patient information, forms, and policies.
+- Navigate easily from any page to the booking form.
+
+The website must also help clinic staff manage appointments, services, dentist profiles, enquiries, opening hours, and website content.
+
+## 2. REQUIRED WEBSITE PAGES AND ROUTES
+
+Create the following individual pages with real routing and complete internal linking.
+
+### PAGE 1: HOME — /
+
+Build an exceptional homepage with:
+
+1. A clean, professional announcement bar for configurable clinic information.
+2. A premium header with custom logo, navigation, and a prominent "Book an Appointment" button.
+3. A cinematic hero section with a high-quality photograph of a friendly dentist and patient in a modern dental clinic.
+4. A headline such as "Your Healthier Smile Starts Here."
+5. Supporting copy focused on comfortable, patient-centered dental care.
+6. Primary CTA: "Book an Appointment".
+7. Secondary CTA: "Explore Our Treatments".
+8. A quick appointment request or booking entry point.
+9. A featured dental services section with attractive cards.
+10. A "Why Choose Our Clinic?" section.
+11. Dentist and clinical team previews.
+12. A patient journey section explaining what to expect.
+13. A clinic interior gallery.
+14. Genuine patient testimonials or clearly labeled demonstration content.
+15. Clinic facilities and technology information, based on verified details.
+16. Patient FAQs.
+17. Location and opening-hours section.
+18. A final appointment CTA.
+19. A comprehensive footer.
+
+Design the homepage around trust, clarity, warmth, and conversion. The appointment CTA must be visible without overwhelming the design.
+
+### PAGE 2: DENTAL SERVICES — /services
+
+Create a dedicated services directory containing configurable treatment categories.
+
+Include the following common dental services where the clinic actually offers them:
+
+PREVENTIVE AND GENERAL DENTISTRY
+- Dental consultation and comprehensive examination.
+- Routine dental checkups.
+- Professional teeth cleaning and scaling.
+- Gum health assessment.
+- Preventive dental care.
+- Dental X-rays when clinically appropriate and available.
+- Oral hygiene education.
+- Fluoride treatment where appropriate.
+
+RESTORATIVE DENTISTRY
+- Tooth-colored fillings.
+- Dental crowns.
+- Dental bridges.
+- Root canal treatment.
+- Denture consultations and fitting.
+- Restoration of damaged teeth.
+
+COSMETIC DENTISTRY
+- Professional teeth whitening.
+- Dental veneers.
+- Smile makeover consultations.
+- Cosmetic bonding.
+- Aesthetic restorative treatments.
+
+ORTHODONTICS
+- Traditional braces.
+- Clear aligners where offered.
+- Orthodontic consultations.
+- Retainer services where offered.
+
+DENTAL IMPLANTS AND TOOTH REPLACEMENT
+- Dental implant consultations.
+- Implant-supported restorations.
+- Missing-tooth treatment options.
+- Denture and bridge consultations.
+
+GUM CARE
+- Periodontal assessment.
+- Gum disease treatment.
+- Periodontal maintenance where offered.
+
+PEDIATRIC DENTISTRY
+- Children's dental checkups.
+- Preventive care for children.
+- Age-appropriate dental education.
+- Pediatric treatment services when provided by qualified clinicians.
+
+ORAL SURGERY AND OTHER SPECIALIST SERVICES
+- Wisdom tooth assessment.
+- Tooth extraction.
+- Oral surgery consultations.
+- Emergency dental assessment.
+- Additional specialist services only where the clinic is appropriately staffed and equipped.
+
+Organize the services into intuitive categories. Each service card should include a suitable image, title, short explanation, relevant benefits, and a "Learn More" or "Book a Consultation" button.
+
+Do not imply that every clinic offers every listed treatment. Services must be configurable, and only services confirmed by the clinic should appear as available.
+
+### PAGE 3: INDIVIDUAL TREATMENT PAGES — /services/[slug]
+
+Create a dedicated dynamic detail page for every published treatment.
+
+Each treatment page should contain:
+
+- Treatment name and introduction.
+- Relevant, professional dental imagery.
+- A simple explanation of the treatment.
+- Common reasons a dentist may recommend an assessment.
+- What patients can generally expect during a consultation.
+- General preparation information where appropriate.
+- Potential considerations, limitations, and the need for individualized assessment.
+- General aftercare information reviewed by a qualified dental professional.
+- Dentist or team information relevant to the service.
+- Configurable pricing information or "Request a Consultation".
+- Frequently asked questions.
+- Related services.
+- A prominent appointment booking CTA.
+
+Treatment information must be medically responsible, accurate, and reviewed or approved by the clinic's qualified dental professional before publication.
+
+Do not diagnose users, prescribe treatment through marketing content, guarantee results, or make unsupported claims about painlessness, success rates, treatment duration, or outcomes.
+
+### PAGE 4: ABOUT US — /about
+
+Create an elegant clinic introduction page featuring:
+
+- A visually compelling hero section.
+- Clinic story and philosophy.
+- Mission, values, and patient care approach.
+- Dentist and staff profiles.
+- Verified qualifications and professional registrations where applicable.
+- Clinic interior and equipment photography.
+- Patient comfort and accessibility information.
+- Explanation of the consultation process.
+- Verified technology and facilities.
+- A call-to-action leading to appointments.
+
+Each dentist profile should support:
+
+- Full name.
+- Professional title.
+- Qualifications.
+- Verified specialization.
+- Areas of clinical interest.
+- Languages spoken.
+- Professional photograph.
+- Short biography.
+- Appointment CTA.
+
+Do not invent degrees, licenses, awards, professional memberships, experience, or specialist credentials.
+
+### PAGE 5: OUR DENTISTS — /dentists
+
+Build a dedicated dentist directory.
+
+Include:
+
+- Professional dentist profile cards.
+- Individual dentist detail pages at /dentists/[slug].
+- Photograph and biography.
+- Verified qualifications.
+- Services offered by each dentist.
+- Languages spoken.
+- Configurable availability.
+- Appointment booking linked to the selected dentist.
+
+Allow patients to select a dentist during the booking process when appropriate.
+
+Only display real availability and verified professional information.
+
+### PAGE 6: APPOINTMENT BOOKING — /book-appointment
+
+This is one of the most important pages of the website.
+
+Build a professional, easy-to-use appointment booking experience.
+
+STEP 1: SELECT A SERVICE
+Allow patients to select an available dental service or consultation type.
+
+STEP 2: SELECT A DENTIST
+Allow selection of a preferred dentist or an option such as "First Available", if supported.
+
+STEP 3: SELECT DATE AND TIME
+Display available appointment slots based on actual configured clinic hours, dentist schedules, appointment durations, blocked periods, and existing bookings.
+
+STEP 4: ENTER PATIENT DETAILS
+Collect only the information necessary for booking, such as:
+
+- Full name.
+- Email address.
+- Phone number with country code.
+- New or returning patient status.
+- Selected service.
+- Preferred dentist.
+- Appointment date and time.
+- Optional accessibility or scheduling request.
+- Required privacy acknowledgment.
+
+Avoid collecting detailed medical histories or sensitive clinical information through a general-purpose booking form.
+
+STEP 5: REVIEW AND CONFIRM
+Display a clear booking summary and allow patients to verify their selections.
+
+STEP 6: CONFIRMATION
+After the backend successfully accepts the appointment, display a confirmation page with the booking reference and next steps.
+
+Booking functionality must include:
+
+- Server-side validation.
+- Accurate availability checks.
+- Time-zone-aware scheduling.
+- Double-booking prevention.
+- Database persistence.
+- Appointment status tracking.
+- Rescheduling and cancellation according to clinic policy.
+- Email confirmation when configured.
+- SMS reminders when a suitable provider is configured.
+- Clear error, loading, and success states.
+
+Do not show unavailable time slots. Prevent two patients from booking the same dentist and time when the schedule does not permit it.
+
+Do not claim that an appointment is confirmed until the backend has successfully reserved the slot. If staff approval is required, label the booking as "Pending Confirmation".
+
+Provide an alternative phone contact method if online booking is temporarily unavailable.
+
+### PAGE 7: PRICING AND PAYMENT INFORMATION — /pricing
+
+Create a transparent, configurable pricing page if the clinic wishes to publish treatment fees.
+
+Include:
+
+- Selected consultation fees.
+- Common treatment price ranges.
+- Clear explanations of what each fee includes.
+- Optional treatment financing information where legally and commercially available.
+- Insurance or payment information where applicable.
+- A "Request a Consultation" CTA.
+
+All prices must be editable by clinic administrators.
+
+Use the configured currency, tax treatment, and regional pricing rules. Do not invent actual clinic prices or promise that every patient will qualify for a particular treatment.
+
+Clearly distinguish indicative prices from confirmed treatment quotations.
+
+Do not charge patients for appointments unless the clinic explicitly enables a properly integrated booking deposit or payment flow.
+
+### PAGE 8: PATIENT INFORMATION — /patient-information
+
+Create a helpful patient resource center with:
+
+- First-visit guidance.
+- What to bring to an appointment.
+- Appointment preparation information.
+- General oral hygiene resources.
+- Children's visit guidance.
+- Clinic accessibility information.
+- Cancellation and rescheduling policies.
+- Insurance and payment guidance where applicable.
+- Patient forms and consent information where appropriate.
+- FAQs.
+
+Use professional, plain-language content reviewed by the clinic.
+
+Do not provide individualized diagnoses or replace professional clinical advice.
+
+If forms require sensitive patient information, use an appropriately secured system rather than an ordinary public contact form.
+
+### PAGE 9: CONTACT US — /contact
+
+Create a premium contact page with:
+
+- Clinic telephone number.
+- Email address.
+- Physical address.
+- Opening hours.
+- Interactive map when a valid location and provider are configured.
+- Contact form.
+- Enquiry category.
+- Patient name and contact details.
+- Message field.
+- Privacy notice.
+- Accessible validation and error states.
+- WhatsApp link when configured.
+- Directions and appointment CTAs.
+
+Save enquiries securely when the backend is configured.
+
+Keep contact details editable through centralized configuration or the admin dashboard.
+
+Do not expose private patient information through URLs, browser logs, or public database queries.
+
+### PAGE 10: EMERGENCY DENTAL INFORMATION — /emergency
+
+Create a clear emergency information page with:
+
+- A prominent clinic telephone contact.
+- Instructions for contacting the clinic urgently.
+- Configurable emergency opening information.
+- General guidance for obtaining appropriate urgent dental care.
+- A clear distinction between routine appointments and urgent concerns.
+
+Explain that severe facial swelling affecting breathing or swallowing, or other signs of a life-threatening emergency, require immediate emergency medical assistance according to the patient's local emergency system.
+
+Do not diagnose patients through the website or imply that an online booking form is suitable for emergencies.
+
+Do not claim the clinic provides 24/7 emergency care unless this has been explicitly confirmed.
+
+### PAGE 11: PATIENT ACCOUNT — /patient-portal
+
+If the clinic requires a patient portal, create a secure authenticated area for:
+
+- Profile and contact information.
+- Upcoming appointments.
+- Appointment history.
+- Rescheduling or cancellation requests.
+- Booking confirmations.
+- Relevant documents, only if the system is designed and authorized to store them securely.
+- Account settings and logout.
+
+Do not expose medical records, prescriptions, treatment plans, or sensitive health information unless a properly secured, authorized patient-record integration is implemented.
+
+If the clinic does not require a portal, prioritize the core booking workflow instead.
+
+### PAGE 12: ADMIN DASHBOARD — /admin
+
+Create a secure, role-protected administration area.
+
+Include:
+
+- Dashboard overview.
+- Appointment calendar.
+- Appointment list.
+- Booking approval and status updates.
+- Dentist schedule management.
+- Clinic opening hours.
+- Blocked dates and holidays.
+- Appointment duration settings.
+- Service and treatment management.
+- Dentist profile management.
+- Pricing and website content management.
+- Patient enquiry management.
+- Contact details and location settings.
+- Email and reminder integration status.
+- Basic operational reports.
+
+Support appropriate statuses such as pending, confirmed, completed, cancelled, and no-show.
+
+Use server-side authentication and role-based authorization. Protect all administrative operations. Hiding an admin link is not sufficient security.
+
+### ADDITIONAL REQUIRED PAGES
+
+Create:
+
+- Privacy Policy.
+- Terms of Use.
+- Appointment and Cancellation Policy.
+- Cookie Preferences where applicable.
+- Custom 404 page.
+- Appropriate consent information for forms and communications.
+
+Legal text must be configurable and reviewed for the clinic's actual jurisdiction. Do not claim that a generic template guarantees legal compliance.
+
+---
+
+## 3. GLOBAL NAVIGATION AND INTERNAL LINKING
+
+Create a consistent global header and footer.
+
+Desktop navigation:
+
+- Home.
+- Services.
+- Our Dentists.
+- About Us.
+- Patient Information.
+- Contact.
+- Book Appointment.
+
+Use dropdowns where helpful without making the menu complicated.
+
+Required linking relationships:
+
+- Logo → Home.
+- Home service cards → Individual treatment pages.
+- Home → About Us, Dentists, Contact, and Appointment Booking.
+- Services → Individual treatment pages.
+- Treatment pages → Relevant dentists and appointment booking.
+- Dentist profiles → Their available services and appointment booking.
+- Patient Information → Relevant policies and contact options.
+- Contact → Appointment Booking.
+- Appointment confirmation → Appropriate next steps.
+- Footer → All major pages, policies, and clinic contact details.
+
+Use real internal routes, breadcrumbs, accessible mobile navigation, active-page states, and meaningful anchor text.
+
+Every visible button must perform its advertised action. Do not leave dead links, placeholder URLs, or decorative booking buttons.
+
+---
+
+## 4. PREMIUM DESIGN SYSTEM
+
+Create a sophisticated visual identity suitable for a high-quality dental clinic.
+
+Suggested palette:
+
+- Warm white: #FFFFFF.
+- Soft ivory: #F7F8F6.
+- Deep navy: #183044.
+- Calm teal: #58B7AD.
+- Muted mint: #E4F4EF.
+- Soft gray: #64748B.
+
+Use refined typography such as Manrope for headings and Inter for body text.
+
+Visual direction:
+
+- Premium editorial-style layouts.
+- Generous whitespace.
+- Strong typographic hierarchy.
+- Elegant rounded cards.
+- High-quality photography.
+- Subtle borders and shadows.
+- Consistent spacing.
+- Modern iconography.
+- Smooth, restrained transitions.
+- Attractive appointment CTA buttons.
+- Clean, uncluttered forms.
+- Professional treatment cards.
+- A calm and reassuring visual atmosphere.
+
+Avoid excessive gradients, neon colors, generic medical templates, exaggerated animations, and overused glassmorphism.
+
+Design each page according to its purpose rather than repeating the same layout everywhere.
+
+The homepage should feel inspiring, treatment pages should feel informative, dentist profiles should feel personal and trustworthy, and the booking interface should feel simple and efficient.
+
+## 5. CUSTOM LOGO AND BRANDING
+
+Generate an original dental clinic logo using custom SVG code.
+
+Create a professional visual symbol combining a subtle tooth outline, clean geometric shapes, or a refined smile motif with the editable clinic wordmark.
+
+Deliver:
+
+- Horizontal logo.
+- Compact icon.
+- Favicon.
+- Light and dark variations.
+
+Store SVG source files inside the project, such as public/brand/logo.svg.
+
+Ensure the logo works across the header, footer, booking screens, and mobile layouts.
+
+Do not use third-party logos, copied trademarks, or emojis as the actual brand identity.
+
+## 6. SPLASH AI IMAGES AND VISUAL ASSETS
+
+Use Splash AI, where available, to generate or obtain appropriate dental clinic imagery.
+
+Create assets for:
+
+- Homepage hero.
+- Dentist consulting with a patient.
+- Modern dental clinic interiors.
+- Dental team portraits.
+- Preventive dental care.
+- Cosmetic dentistry.
+- Orthodontics.
+- Pediatric dentistry.
+- Dental implants and restorative care.
+- Reception and waiting areas.
+- Patient consultation rooms.
+
+Image style:
+
+Photorealistic, premium healthcare photography, natural lighting, modern clinical interiors, reassuring patient interactions, clean composition, authentic professional appearance, and sophisticated neutral colors.
+
+Avoid graphic clinical imagery, exaggerated treatment results, identifiable real patients without permission, fake clinical credentials, and images implying services that the clinic does not provide.
+
+Organize images in folders such as:
+
+- public/images/hero/
+- public/images/services/
+- public/images/dentists/
+- public/images/clinic/
+- public/images/patient-resources/
+
+Use appropriate image dimensions, optimized WebP or AVIF formats where supported, descriptive alt text, and responsive loading.
+
+If Splash AI cannot be accessed directly, create ready-to-use image-generation prompts and use legally usable sample assets. Never invent API endpoints or claim that automated image generation is working without verification.
+
+Clearly label demonstration imagery where necessary.
+
+## 7. APPOINTMENT DATABASE AND SCHEDULING
+
+Use a structured database to manage appointments and clinic availability.
+
+Suggested tables:
+
+CLINIC SETTINGS
+- id.
+- clinic_name.
+- contact_details.
+- timezone.
+- opening_hours.
+- address.
+- configuration.
+
+DENTISTS
+- id.
+- name.
+- slug.
+- professional_title.
+- verified_qualifications.
+- biography.
+- profile_image.
+- active_status.
+
+SERVICES
+- id.
+- name.
+- slug.
+- description.
+- duration_minutes.
+- indicative_price.
+- currency.
+- active_status.
+
+DENTIST SERVICES
+- dentist_id.
+- service_id.
+
+AVAILABILITY
+- id.
+- dentist_id.
+- weekday.
+- start_time.
+- end_time.
+- effective dates where needed.
+
+APPOINTMENTS
+- id.
+- booking_reference.
+- patient_name.
+- patient_email.
+- patient_phone.
+- dentist_id.
+- service_id.
+- appointment_start.
+- appointment_end.
+- timezone.
+- status.
+- created_at.
+- updated_at.
+
+Include any necessary tables for blocked dates, cancellation records, and notification delivery status.
+
+Use correct foreign keys, database constraints, appropriate indexes, and timezone-aware timestamps.
+
+Prevent conflicting appointments using transactional booking logic and suitable database constraints or locking. Check availability again on the server immediately before creating the booking.
+
+Use only the minimum patient information required for the booking.
+
+Do not store passwords in plaintext or collect payment card details directly.
+
+---
+
+## 8. FULL-STACK TECHNOLOGY
+
+Preferred stack:
+
+- Next.js App Router.
+- React.
+- TypeScript.
+- Tailwind CSS.
+- Reusable UI components.
+- Lucide icons.
+- Supabase with PostgreSQL.
+- Secure server-side route handlers or Server Actions.
+- Zod validation.
+- A suitable transactional email provider.
+- An optional SMS provider for reminders.
+
+Adapt the architecture to the target platform if necessary.
+
+Implement:
+
+- Database migrations.
+- Server-side validation.
+- Secure appointment creation.
+- Authentication when a patient portal is enabled.
+- Authorization for administrative actions.
+- Availability queries.
+- Enquiry handling.
+- Notification integration.
+- Rate limiting.
+- Spam protection.
+- Error handling.
+- Environment-variable configuration.
+- Audit logging for appropriate administrative changes.
+
+Never expose service-role keys, private API credentials, email secrets, or sensitive configuration in browser code.
+
+If backend credentials are unavailable, provide the implementation structure and clear setup instructions. Do not pretend the backend is connected until the integration has been configured and tested.
+
+---
+
+## 9. EMAIL, SMS AND APPOINTMENT REMINDERS
+
+Where configured, support:
+
+- Booking request received email.
+- Appointment confirmation email.
+- Appointment rescheduling notification.
+- Appointment cancellation notification.
+- Appointment reminder.
+- Staff notification of new booking requests.
+
+Use a reliable transactional email provider and an appropriate SMS provider if required.
+
+Implement delivery status tracking, error handling, retry rules, and protection against duplicate notifications.
+
+Respect applicable communication consent and privacy requirements.
+
+Do not send notifications or claim delivery if the relevant integration has not been configured.
+
+Provide editable templates matching the clinic's brand.
+
+---
+
+## 10. PAYMENT AND BOOKING DEPOSITS
+
+Keep payment optional and disabled by default.
+
+If the clinic requires appointment deposits or paid consultations, integrate an appropriate payment provider supported in the clinic's country.
+
+Implement:
+
+- Configurable deposit rules.
+- Clear payment terms.
+- Secure hosted checkout.
+- Server-side payment verification.
+- Signed webhook verification.
+- Idempotent payment event processing.
+- Payment status tracking.
+- Appropriate cancellation and refund workflows.
+
+Never activate a paid booking solely because the browser reaches a success page.
+
+Do not store raw payment card details.
+
+If the clinic does not charge booking deposits, keep the appointment process enquiry-based or confirmation-based without unnecessary checkout steps.
+
+---
+
+## 11. HEALTHCARE PRIVACY AND SECURITY
+
+Treat patient information as sensitive.
+
+Implement:
+
+- HTTPS in production.
+- Secure server-side access controls.
+- Data minimization.
+- Restrictive database permissions.
+- Appropriate Row Level Security.
+- Input validation and sanitization.
+- Rate limiting.
+- Secure authentication.
+- Safe session handling.
+- Protection against unauthorized data access.
+- Appropriate retention and deletion policies.
+- Privacy notices and communication consent.
+- Minimal logging of personal information.
+
+Do not put sensitive health information in URLs, analytics events, error messages, or public logs.
+
+Do not use advertising trackers or analytics configurations that expose patient information.
+
+For US clinics, evaluate applicable HIPAA obligations and vendor agreements. For clinics in the UK or EU, evaluate applicable UK GDPR, GDPR, and healthcare privacy requirements. For Indian clinics, assess applicable Indian data protection and healthcare obligations. Apply the rules relevant to the actual clinic and jurisdiction.
+
+Use suitable infrastructure and service providers before handling real patient health information. A generic website implementation must not be represented as legally certified or automatically compliant.
+
+---
+
+## 12. SEO AND LOCAL SEARCH
+
+Implement technical SEO, local SEO, and treatment-specific content optimization.
+
+Include:
+
+- Unique page titles.
+- Relevant meta descriptions.
+- Canonical URLs.
+- Open Graph metadata.
+- XML sitemap.
+- Robots.txt.
+- Semantic HTML.
+- Logical heading hierarchy.
+- Accessible image alt text.
+- Internal linking between services, dentists, and booking pages.
+- Dentist profile metadata.
+- Location-specific clinic information.
+- Appropriate LocalBusiness, Dentist, Organization, and other relevant structured data when supported by verified facts.
+- Clean, readable URLs.
+- Optimized mobile layouts.
+- Indexing controls for private patient and admin pages.
+
+Create helpful content around the real services and geographic areas of the clinic.
+
+Do not create fake reviews, fabricated qualifications, unsupported medical claims, or misleading location pages.
+
+Structured data must match the actual visible page content. Never mark up fictional testimonials or invented business information as genuine.
+
+Use Search Console and other appropriate SEO tools during deployment where available.
+
+---
+
+## 13. PERFORMANCE AND ACCESSIBILITY
+
+Use a mobile-first design and target strong Core Web Vitals.
+
+Implement:
+
+- Optimized responsive images.
+- Lazy loading below the fold.
+- Prioritized loading for the main hero image.
+- Efficient fonts.
+- Minimal unnecessary JavaScript.
+- Server rendering where appropriate.
+- Efficient database queries.
+- Good caching practices.
+- No horizontal overflow.
+- Accessible forms and validation.
+- Keyboard navigation.
+- Visible focus states.
+- Appropriate color contrast.
+- Reduced-motion support.
+- Semantic landmarks.
+- Accessible navigation menus and dialogs.
+
+Target WCAG 2.2 AA accessibility standards wherever practical.
+
+Ensure appointment booking remains easy to use on smaller screens and with assistive technologies.
+
+---
+
+## 14. CONTENT AND CLINICAL ACCURACY
+
+Use professional, patient-friendly English with a reassuring and informative tone.
+
+Keep clinic information editable.
+
+All treatment content must be reviewed by a qualified dental professional before publication.
+
+Do not:
+
+- Diagnose patients through website copy.
+- Promise guaranteed treatment outcomes.
+- Claim that a procedure is completely painless.
+- Invent treatment success rates.
+- Fabricate qualifications or professional registrations.
+- Publish false patient reviews.
+- Invent clinic prices or opening hours.
+- Present sample staff profiles as real dentists.
+- Offer medical advice as a substitute for a clinical examination.
+
+Include appropriate disclaimers and encourage patients to contact the clinic for individualized advice.
+
+Support additional languages if required by the client, using properly reviewed translations rather than unverified machine-generated medical translations.
+
+---
+
+## 15. PROJECT STRUCTURE AND MAINTAINABILITY
+
+Organize the application into reusable components and clear modules.
+
+Include:
+
+- Global layout.
+- Header and footer.
+- Homepage sections.
+- Service listing and treatment detail components.
+- Dentist listing and profile components.
+- Booking flow.
+- Contact forms.
+- Patient information components.
+- Admin dashboard.
+- Database utilities.
+- Validation schemas.
+- Server-side handlers.
+- Notification integrations.
+- SEO utilities.
+- Brand assets.
+- Image assets.
+- Tests.
+- Configuration.
+
+Create a centralized configuration for clinic branding, contact details, opening hours, services, appointment settings, currency, and localization.
+
+Keep code readable, typed, modular, and maintainable.
+
+---
+
+## 16. TESTING AND QUALITY ASSURANCE
+
+Before declaring the project complete:
+
+- Verify every page and route.
+- Verify all navigation links.
+- Test appointment booking with valid and invalid inputs.
+- Test concurrent bookings and prevent conflicting appointments.
+- Verify dentist availability and clinic opening hours.
+- Test appointment confirmation and cancellation flows.
+- Verify database persistence.
+- Test role-based access controls.
+- Verify that private patient information is inaccessible to unauthorized users.
+- Test email and SMS integrations when configured.
+- Test payment flows only if payment functionality is enabled.
+- Check image loading.
+- Check responsive layouts.
+- Run available build and type checks.
+- Verify SEO metadata and indexing rules.
+- Test keyboard navigation and accessibility basics.
+- Fix broken links, missing assets, build errors, and console errors.
+
+Clearly document any unconfigured services or untested functionality.
+
+Never claim a feature is working unless it has actually been implemented and verified.
+
+---
+
+## 17. FINAL DELIVERABLES
+
+Provide:
+
+- Complete source code.
+- All implemented pages and routes.
+- Custom SVG logo and favicon.
+- Dental image assets and image-generation prompts.
+- Reusable UI components.
+- Appointment booking workflow.
+- Database schema and migrations.
+- Secure backend integration.
+- Dentist and service management.
+- Admin dashboard.
+- Email and reminder integration structure.
+- Optional payment integration.
+- Environment-variable example file with placeholder values only.
+- Privacy and policy page templates.
+- SEO configuration.
+- Responsive design system.
+- Tests where practical.
+- Comprehensive README.
+- Local installation instructions.
+- Database configuration instructions.
+- Image and branding customization instructions.
+- Deployment instructions.
+- A clear list of external credentials and manual setup steps still required.
+
+## FINAL EXECUTION INSTRUCTIONS
+
+Begin by defining the visual design system, branding, application architecture, database schema, and reusable components.
+
+Then implement the homepage, service directory, treatment detail pages, About Us, dentist directory, appointment booking, patient information, contact page, and emergency information page.
+
+Next, implement the backend, appointment availability engine, database persistence, administrative dashboard, and notification integrations. Add the optional patient portal and payment functionality when appropriate.
+
+Finally, implement SEO, accessibility, performance optimization, and testing.
+
+The website must look premium enough to present to a real dental clinic client. Prioritize trust, clean design, professional photography, easy appointment booking, genuine functionality, healthcare privacy, and maintainable code.
+
+Do not stop at a plan, wireframe, or static mockup. Build the actual application wherever the environment permits. Clearly identify any missing credentials, external integrations, and tasks that still require manual configuration.
+
+The final result should be a modern, patient-focused, professionally branded dental clinic website that can be customized and deployed for clinics in India, the UK, the US, or other international markets after the appropriate regional configuration and compliance review.
